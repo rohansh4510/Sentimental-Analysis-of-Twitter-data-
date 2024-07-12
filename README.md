@@ -1,2 +1,7 @@
 # Sentimental-Analysis-of-Twitter-data-
 This project performs sentiment analysis on Twitter data sourced from Kaggle, aiming to classify tweets into positive or negative sentiments using machine learning. The main steps are data preprocessing, feature extraction, model building, and evaluation.
+Data preprocessing involves cleaning text data by removing unwanted characters, links, and symbols using regular expressions. The text is then tokenized, stop words are removed, and words are stemmed to their root forms using the Porter Stemmer. Feature extraction is accomplished with TfidfVectorizer to convert text data into numerical features.
+
+The model is built using logistic regression, with the dataset split into training and testing sets using train_test_split. The performance of the model is evaluated using accuracy_score.
+
+To use this project, clone the repository, navigate to the directory, install the required libraries (numpy, pandas, nltk, scikit-learn), download the dataset from Kaggle, and run the script. The dependencies include numpy, pandas, re, nltk, and scikit-learn. Place the downloaded dataset in the project directory before running the script. The accuracy of the sentiment analysis model will be displayed after running the script. Further improvements can be made by experimenting with different preprocessing techniques, feature extraction methods, and machine learning algorithms.
